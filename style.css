@@ -1,0 +1,209 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(19, 19, 60, 0.8);
+    /*background-color: #f5b992f6;  Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+  
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+  
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*
+img {
+    height: 200px;
+    width: 100%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: flex;
+}
+*/
+.titulo {
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+}
+.paragrafo1 {
+    text-align: center;
+}
+/*-----------------------*/
+#quadro1 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro1:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+
+#quadro2 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro2:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro3 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro3:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro4 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro4:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+/*-------------------------*/
+#quadro5 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro5:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro6 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro6:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro7 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro7:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro8 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro8:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+/*--------------------------*/
+#quadro9 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro9:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro10 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro10:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro11 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro11:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+#quadro12 {
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(19, 19, 60, 0.8);
+    color: white;
+    transition: 1s;
+}
+#quadro12:hover{
+    background-color: white;
+    color: rgb(19, 19, 60, 0.8);
+}
+/*---------------------------*/
+.quadro{
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+}
+.hr{
+    margin-top: 300px;
+}
+h4 {
+    text-align: center;
+}
+.subtitulo {
+    text-align: center;
+}
